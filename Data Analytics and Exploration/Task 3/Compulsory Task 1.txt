@@ -1,0 +1,16 @@
+Compulsory Task 1: Design and Build Relational Database
+
+	a) Database normalization involves the process of evaluating and correcting table structure in a database in order to eliminate 
+	   data redundancies and data anomalies (HyperionDev, 2021).
+	b) A table is in First Normal Form (1NF) when:
+		- all of the key attributes have been defined
+		- no repeating groups exist in the table
+		- all attributes are dependent on the primary key (HyperionDev, 2021).
+	c) A table is in Second Normal Form (2NF) when it:
+		- is in 1NF
+		- includes no partial dependencies (HyperionDev, 2021).
+	d) A table is in Third Normal Form (3NF) when it:
+		- is in 2NF
+		- contains no transitive dependencies (HyperionDev, 2021).
+		
+	

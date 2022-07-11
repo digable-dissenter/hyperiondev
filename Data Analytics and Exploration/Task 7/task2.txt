@@ -1,0 +1,6 @@
+Compulsory Task 2
+
+task_2_data (Income Groups by Gender):Bar or pie chart could work. Bar chart to show totals between different categories (Gender/Income Group/Age). Pie chart to show proportion of each category/segment to sum total.
+ 
+
+task_data (Student's grades): Bar graph. Can get students' averages across the genders according to the different subjects and visually display this in a bar graph.

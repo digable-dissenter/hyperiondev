@@ -1,0 +1,24 @@
+Task 1
+A)
+request a number from the user
+if the number is greater than 0 (i.e. positive)
+	store the number into variable largest
+else if the number is less than 0
+	discard input
+request new n user input (i.e. n denotes number of times a value is entered)
+if the new input positive number is greater than largest number
+	store the new number into variable largest
+else if the new input number is less than largest number	
+	discard input
+when n user input equals 0
+	print out largest number
+	
+B)
+request a number from the user
+assign number to variable X
+request a second number from the user
+assign second number to variable Y
+calculate and store value for S by adding X and Y
+calculate and store value for A by dividing S by 2
+calculate and store value for P by multiplying X by Y
+print out values for S, A, and P

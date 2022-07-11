@@ -1,0 +1,51 @@
+Compulsory task 1
+
+Visualisation A Heat Map:
+		Heat maps graphically display data through colour variations. They are best used to depict multivariate data by showing variance 
+		between multiple variables in a tabular format, revealing patterns in the data. They also can be applied to categorical data in a 
+		colour-coded form, and discrete data in a blended colour scale (Data Viz Catalogue, 2021). 
+
+Visualisation B Gantt Charts:
+		Gantt charts are a type of chart that depicts or visualizes project milestones, activities, and/or schedule over duration of time. These assist scrum
+		masters and project managers better estimate, plan, allocate and manage project resources. Best used for discrete and/or categorical data
+		for the reasons specified above (Data Viz Catalogue, 2021).  
+
+Visualisation C Stem and Leaf Plot:
+		Stem and leaf plots classify either discrete or continuous data by showing users a quick snapshot of how the data is distributed.
+		Because it used for the two types mentioned above, users can discern outliers and/or the mode of the dataset. But users have to be
+		careful about how much data to display because it can compromise the plot (Data Viz Catalogue, 2021).
+		
+Compulsory Task 2
+		
+Visualisation A
+		1. ) Add a legend to the pie chart and remove the displayed categories and depict them in the legend. 
+			 Reason: it is a much cleaner way to display categories, especially if the number of categories increases.
+		2. ) Add a chart title so the user understands the context of the data displayed in the pie chart. 
+			 Reason: By looking at the chart, the point of the diagram is not clear, i.e. are those number pets
+			 that students in a classroom have?
+		3. ) Add the portion that each category makes up of the whole dataset. 
+			 Reason: while it is useful to see the make-up of each cat. of the whole, the number/percentage
+			 gives chart more meaning
+			 
+Visualisation B
+		1. ) Add an additional unit on the y-axis above 12.
+		     Reason: bar charts usually show values higher than the highest data value in the dataset on the y-axis
+		2. ) Change font colour of the x-axis data points, i.e. days of the week from grey to black.
+			 Reason: enhance readability because grey and orange together make it difficult to read.
+		3. ) Days of Week is not the chart title. This label should be placed underneath the x-axis. 
+			 Reason: it's a label decribing the x-axis and not the chart title.
+		Bonus ) Give the chart an appropriate name: i.e. Bags Sold by Day of the Week
+				Reason: Better chart title that "Days of Week"
+		
+		
+Visualisation C
+		1. ) Each department shown in the legend can be its own bar chart.
+			 Reason: It will make it clearer to the user, then, of how exactly each department did in relation to the month (season).
+	
+		2.) Can use a pie chart to show each department contributuon in a month instead of what is depicted.
+			Reason: Pie charts are usually used for compositional/representative datasets.
+			
+		3.) Add numerical annotations in terms of sales totals for each department.
+			Reason: While it is useful to see the compositional make-up of each category for each month,
+			numbers would add more meaning to the depicted chart. Can then answer questions like,
+			how much more frangrances are we selling in X month compared to Y?

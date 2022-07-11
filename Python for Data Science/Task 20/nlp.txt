@@ -1,0 +1,11 @@
+Compulsory Task 2
+
+I work for an asset management company. Our company's aim is to gain a competitive edge by offering superior 
+investment products that yield better returns than our competitors. Our philosophy is to first determine a company's intrinsic value over time
+and ensure that the price we buy a share for is trading at a discount to its intrinsic value.
+One application of NLP could be to analyse various unstructured texts for insight generation, for example customer/employee reviews, Federal government filings, etc. for 
+sentiment analysis.
+Another could include looking at other types of publicly available data, for e.g. Census statistics, coverage and product offerings of competitors
+to determine the viability of investing in a particular company (as opposed to its competitors).
+These decisions would assist the analysts and portfolio managers' buy decisions based on whether they believe the company's share price
+is trading at a discount to its intrinsic value.

@@ -1,0 +1,16 @@
+Task 2
+A)
+request user's name
+store user's name into variable first_name
+print out first_name
+and print out "Hello, World."
+
+B)
+request user input
+store user input into variable age
+if age is equal to or greater than 18
+	print out "You're old enough"
+else if age is equal to 16 or equal to 17
+	print out "Almost there"
+else (if age is less than 16)
+	print out "You're just too young"

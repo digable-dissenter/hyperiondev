@@ -1,0 +1,11 @@
+Task 3
+
+American Century Investments is prominent global asset management company.
+
+They use a Natural Language Processing model to aid in reserach in order to detect for possible deception in company's quarterly earnings reports. 
+The model is sophisticated enough that it can detect omission of key details, exaggerated claims, verbose explanations of simple concepts, and deflecting 
+accountability for poor performance. 
+Their NLP model incorporated insights from psychology and computational linguistics and applied these to listed entities in the Russell 3000 index.
+Investment manager decisions on portfolio selection would naturally favour companies with a faviourable score according to its model.
+
+Source: https://decimalpointanalytics.medium.com/how-asset-managers-are-leveraging-natural-language-processing-nlp-techniques-b83aa91cf9dd

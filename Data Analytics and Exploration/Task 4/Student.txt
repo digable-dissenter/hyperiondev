@@ -1,0 +1,55 @@
+
+--Create Students table
+CREATE TABLE Students (
+	STU_NUM CHAR(6) NOT NULL,
+	STU_SNAME VARCHAR(15) NULL,
+	STU_FNAME VARCHAR(15) NULL,
+	STU_INITIAL CHAR(1) NULL,
+	STU_STARTDATE DATE NULL,
+	COURSE_CODE CHAR(3) NULL,
+	PROJ_NUM INT(2) NULL,
+	PRIMARY KEY (STU_NUM)
+);
+
+--Inserting first 2 records into Students table
+INSERT INTO Students
+(STU_NUM,STU_SNAME,STU_FNAME,STU_INITIAL,STU_STARTDATE,COURSE_CODE,PROJ_NUM)
+VALUES
+('01','Snow','John','E','05-Apr-14','201',6),
+('02','Stark','Arya','C','12-Jul-17','305',11);
+
+--Inserting the rest of the records into Students tableINSERT INTO Students
+INSERT INTO Students
+(STU_NUM,STU_SNAME,STU_FNAME,STU_INITIAL,STU_STARTDATE,COURSE_CODE,PROJ_NUM)
+VALUES
+('03','Lannister','Jamie','C','05-Sep-12','101',2),
+('04','Lannister','Cercei','J','05-Sep-12','101',2),
+('05','Greyjoy','Theon','I','09-Dec-15','402',14),
+('06','Tyrell','Margaery','Y','12-Jul-17','101',10),
+('07','Baratheon','Tommen','R','13-Jun-19','201',5);
+
+--All attributes for a COURSE_CODE of 305.
+SELECT * FROM [Students]
+WHERE COURSE_CODE = '305';        
+
+--Change the course code to 304 for the person whose student number is 07
+UPDATE [Students]
+SET COURSE_CODE = '304'
+WHERE STU_NUM = '07';
+
+--Delete the row of the person named Jamie Lannister,
+--who started on 5 September 2012, whose course code is 101 and project number is 2.
+DELETE FROM [Students]
+WHERE STU_SNAME = 'Lannister' AND STU_FNAME = 'Jamie' AND STU_STARTDATE = '05-Sep-12' AND COURSE_CODE = '101' AND PROJ_NUM = 2;
+
+--Change the PROJ_NUM to 14 for all those students who started before 1 January 2016 
+--and whose course code is at least 201.
+UPDATE [Students]
+SET PROJ_NUM = 14
+WHERE STU_STARTDATE < '01-Jan-16' AND COURSE_CODE >= '201';
+
+--Delete all of the data inside a table, but not the table itself
+DELETE FROM Students;
+
+--Delete the Student table entirely
+DROP TABLE Students;

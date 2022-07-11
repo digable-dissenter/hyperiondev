@@ -1,0 +1,18 @@
+Task 1: Introduction to Databases
+
+1. 
+	a) Data is raw, unprocessed facts, in most case later to be made meaning of when processed into information (HyperionDev, 2021).
+	b) A field is used to store and define data. It consists of a character or group of characters from which meaning can be derived (HyperionDev, 2021).
+	c) A record is a logically grouped set of one or more fields that describes an entity (i.e. person, place, etc.) (HyperionDev, 2021).
+	d) A file contains related records organised in a collection (HyperionDev, 2021).
+	
+2. A Database Management System (DBMS) is a software program that manages and accesses data stored in a database. It provides an interface from which a user
+   can query the contents of a database by receiving application requests and translating them into complex operations (HyperionDev, 2021).
+
+3. Data consists of raw, unprocessed facts. Information conversely processes data to derive meaning (HyperionDev, 2021).
+
+4. Metadata is data that describes the characteristics of data. In other words, it is data about data (OpenDataSoft, 2016).
+
+5.
+	e) 4 records
+	f) 5 fields: PROJECT_CODE, PROJECT_MANAGER, MANAGER_PHONE, MANAGER_ADDRESS, PROJECT_BID_PRICE

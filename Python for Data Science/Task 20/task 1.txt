@@ -1,0 +1,6 @@
+# Compulsory Task 1
+
+a.) Text classification: pre-defined categories used to organise content
+b.) Automatic summarisation: to guage meaning behind large body of text
+c.) Question answering: human asked questiond answered by machines
+

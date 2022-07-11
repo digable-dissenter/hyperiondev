@@ -1,0 +1,9 @@
+Best to use Visual Studio Code as the IDE of choice to run this program.
+When run in IDLE, an Attribute error occurs trying to access one of the functions in the PyInquirer library:
+Python AttributeError: 'NoneType' object has no attribute 'fileno'
+When run in PyCharm, the error reads: No Windows console found. Are you running cmd.exe?
+Visual Studio Code provides no such error provided you have the PyInquirer library installed: 
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org pip pyinquirer
+
+Also important when installing the library above to navigate to where your Python interpreter in stored:
+for example, C:\Users\Kenneth\AppData\Local\Programs\Python\Python39

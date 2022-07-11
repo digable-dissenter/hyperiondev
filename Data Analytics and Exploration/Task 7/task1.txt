@@ -1,0 +1,5 @@
+Compulsory Task 1
+
+Scenario 1: Crime statistics - by visualising statistics, one can infer the location of hot spots, the type and time various crimes are committed, etc.
+
+Scenario 2: Income disparity - can visualising on a global or local level, the different levels of income and identify clusters according to geographical regions, race, gender, and other categories
